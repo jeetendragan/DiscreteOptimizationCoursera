@@ -1,3 +1,5 @@
 *.class
 /.metadata
+/.recommenders
 /RemoteSystemsTempFiles
+/knapsack/__pycache__

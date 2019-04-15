@@ -226,6 +226,9 @@ def output(input_file, solver_file):
         return 'Local Exception =('
     end = time.clock()
 
+    print("Solution before parsing: \n")
+    print(solution)
+
     if not (isinstance(solution, str) or isinstance(solution, unicode)):
         print('Warning: the solver did not return a string.  The given object will be converted with the str() method.')
         solution = str(solution)
